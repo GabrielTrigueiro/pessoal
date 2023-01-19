@@ -1,0 +1,23 @@
+.navbar_container {
+    color: white;
+    background-color: black;
+    padding: 1em 1.2em;
+}
+
+.navbar_container {
+    color: white;
+}
+
+.navbar_container ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navbar_container a{
+    color: white;
+}
+
+.navbar_container a:hover{
+    color: gray;
+}
