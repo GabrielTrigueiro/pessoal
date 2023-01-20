@@ -1,11 +1,7 @@
 .navbar_container {
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.833);
     padding: 1em 1.2em;
-}
-
-.navbar_container {
-    color: white;
 }
 
 .navbar_container ul{

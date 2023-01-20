@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import styles from "../styles/Layout.module.css"
 
 interface props {
     children?:  React.ReactNode
@@ -8,9 +9,11 @@ interface props {
 
 export const Layout: React.FC<props> = ({children}) => {
     return(
-        <div>
+        <div className={styles.container}>
             <Navbar/>
-            {children}
+            <div className={styles.body}>
+                {children}
+            </div>
             <Footer/>
         </div>
     )

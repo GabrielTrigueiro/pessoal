@@ -9,10 +9,10 @@ export default function Navbar() {
                     <Link href={'/'}>Home</Link>
                 </li>
                 <li>
-                    <Link href={'/projetos'}>Projetos</Link>
+                    <Link href={'/projects'}>Projetos</Link>
                 </li>
                 <li>
-                    <Link href={'/sobre'}>Sobre mim</Link>
+                    <Link href={'/about'}>Sobre mim</Link>
                 </li>
             </ul>
         </nav>
