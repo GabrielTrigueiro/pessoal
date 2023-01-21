@@ -1,8 +1,17 @@
 .container {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+}
+
+.navbar {
+    flex: 1;
 }
 
 .body {
-    min-height: 93vh;
+    flex: 9;
+}
+
+.footer {
+    flex: 1;
 }

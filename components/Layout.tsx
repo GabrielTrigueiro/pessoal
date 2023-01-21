@@ -10,11 +10,15 @@ interface props {
 export const Layout: React.FC<props> = ({children}) => {
     return(
         <div className={styles.container}>
-            <Navbar/>
+            <div className={styles.navbar}>
+                <Navbar/>
+            </div>
             <div className={styles.body}>
                 {children}
             </div>
-            <Footer/>
+            <div className={styles.footer}>
+                <Footer/>
+            </div>
         </div>
     )
 }

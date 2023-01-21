@@ -1,7 +1,14 @@
+import Head from "next/head";
+
 export default function About() {
     return(
-        <div>
-            Página de about
-        </div>
+        <>
+            <Head>
+                <title>Sobre</title>
+            </Head>
+            <div>
+                Página de about
+            </div>
+        </>
     )
 }
