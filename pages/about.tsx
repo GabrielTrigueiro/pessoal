@@ -6,6 +6,7 @@ export default function About() {
             <Head>
                 <title>Sobre</title>
             </Head>
+            
             <div>
                 Página de about
             </div>

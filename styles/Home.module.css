@@ -1,0 +1,17 @@
+.container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 1em;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+}
+
+.resume {
+    flex: 1;
+}
+
+.photo {
+    flex: 1;
+    position: relative;
+}
