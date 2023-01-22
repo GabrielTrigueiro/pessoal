@@ -12,7 +12,7 @@ export default function Home() {
             <div className={styles.resume}>
                 <h1>Olá! Me chamo Gabriel Trigueiro</h1>
                 <p>
-                    Desenvolvedor Front-End, atualmente cursando Ciência da Computação na UEPB, trabalho com React e Next.
+                    Desenvolvedor Front-End, atualmente cursando Ciência da Computação na UEPB (Universidade estadual da Paraíba), trabalho com React e Next.
                 </p>
                    
                 <h3>Para mais detalhes consulte a página "Sobre mim" ou baixe e leia o currículo a baixo.</h3>
@@ -28,8 +28,10 @@ export default function Home() {
                     width={350}
                     height={350}
                     style={{
-                        borderRadius: '2000px',
-                        objectFit: 'cover'
+                        borderRadius: '50%',
+                        objectFit: 'cover',
+                        border:'4px solid black',   
+
                     }}
                 />
             </div>
