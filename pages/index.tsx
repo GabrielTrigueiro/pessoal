@@ -15,7 +15,7 @@ export default function Home() {
                     Desenvolvedor Front-End, atualmente cursando Ciência da Computação na UEPB (Universidade estadual da Paraíba), trabalho com React e Next.
                 </p>
                    
-                <h3>Para mais detalhes consulte a página "Sobre mim" ou baixe e leia o currículo a baixo.</h3>
+                <h3>Para mais detalhes consulte a página "Sobre mim" ou baixe e leia o currículo a baixo =D.</h3>
 
                 <div className={styles.button}>
                     <button>Dowload Currículo</button>
