@@ -22,16 +22,15 @@ export default function Home() {
                 </div>
             </div>
             <div className={styles.photo}>
-                <Image
+                <Image  
                     alt='foto'
                     src={'/images/self.jpg'}
-                    width={350}
-                    height={350}
+                    width={300}
+                    height={300}
                     style={{
                         borderRadius: '50%',
                         objectFit: 'cover',
                         border:'4px solid black',   
-
                     }}
                 />
             </div>
