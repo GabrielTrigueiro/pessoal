@@ -1,5 +1,12 @@
-import { GetServerSideProps } from "next";
+import { GetServerSideProps, InferGetServerSidePropsType } from "next";
 import Head from "next/head";
+import Link from "next/link";
+import styles from "../styles/Project.module.css"
+
+interface RepoName {
+    name: string
+    html_url: string
+}
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
 
@@ -12,14 +19,18 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     return {props: {data}}
 }
 
-export default function Projects() {
+export default function Projects({data}: InferGetServerSidePropsType<typeof getServerSideProps>) {
     return(
         <>
             <Head>
                 <title>Projetos</title>
             </Head>
-            <div>
-                {}
+            <div className={styles.container}>
+                {data.map((rep:RepoName) => (
+                    <div>
+                        <Link href={rep.html_url} target={'_blank'}>{rep.name}</Link>
+                    </div>
+                ))}
             </div>
         </>
     )
