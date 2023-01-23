@@ -1,4 +1,5 @@
 import Head from "next/head";
+import styles from '../styles/About.module.css'
 
 export default function About() {
     return(
@@ -7,8 +8,8 @@ export default function About() {
                 <title>Sobre</title>
             </Head>
             
-            <div>
-                Página de about
+            <div className={styles.container}>
+                <div className={styles.image}>oisas</div>
             </div>
         </>
     )

@@ -16,7 +16,8 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 
     const data = await res.json()
 
-    return {props: {data}}
+    return {
+        props: {data, fallback: false}}
 }
 
 export default function Projects({data}: InferGetServerSidePropsType<typeof getServerSideProps>) {
