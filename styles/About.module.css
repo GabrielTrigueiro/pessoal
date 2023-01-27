@@ -1,0 +1,32 @@
+.container {
+    height: 70vh;
+    width: 90vw;
+    padding: 1em;
+    border-radius: 1em;
+    background: rgb(1,32,37);
+    background: linear-gradient(140deg, rgba(1,32,37,1) 0%, rgba(12,68,83,1) 95%, rgba(51, 137, 163, 0.519) 100%);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(8em, 8em));
+    display: flex;
+}
+
+.image {
+    flex: 1;
+}
+
+.skills {
+    flex: 1;
+    background-color: aliceblue;
+    border-radius: 1em;
+}
+
+.item {
+    background-color: #f2e3ff;
+    border: 2px solid rgb(229, 229, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    width: 8em;
+    height: 2em;
+}
